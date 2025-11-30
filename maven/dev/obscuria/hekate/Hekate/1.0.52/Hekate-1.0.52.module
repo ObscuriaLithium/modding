@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.obscuria.hekate",
+    "module": "Hekate",
+    "version": "1.0.52",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "Hekate-1.0.52.jar",
+          "url": "Hekate-1.0.52.jar",
+          "size": 17236,
+          "sha512": "e82df472c055878599e62d0437b816aaf95bd8a6eebb814949c49fbe1358d7695ed971426f5518368a41f760b88e11f805db6288d1ed0c7d031ba499abc2dff6",
+          "sha256": "a135f17d59d65c9f37524a9c92c645100e47933f3f21eb2c08bc1729f60a1e1b",
+          "sha1": "24a5c149f5e21e6768ce01611f0423e02e329ad9",
+          "md5": "5f556ca385ba2f2cc1bcdf3cb650717d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.darkhax.curseforgegradle",
+          "module": "CurseForgeGradle",
+          "version": {
+            "requires": "1.1.28"
+          }
+        },
+        {
+          "group": "com.modrinth.minotaur",
+          "module": "Minotaur",
+          "version": {
+            "requires": "2.8.10"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.glassfish.jaxb",
+          "module": "jaxb-runtime",
+          "version": {
+            "requires": "4.0.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "Hekate-1.0.52.jar",
+          "url": "Hekate-1.0.52.jar",
+          "size": 17236,
+          "sha512": "e82df472c055878599e62d0437b816aaf95bd8a6eebb814949c49fbe1358d7695ed971426f5518368a41f760b88e11f805db6288d1ed0c7d031ba499abc2dff6",
+          "sha256": "a135f17d59d65c9f37524a9c92c645100e47933f3f21eb2c08bc1729f60a1e1b",
+          "sha1": "24a5c149f5e21e6768ce01611f0423e02e329ad9",
+          "md5": "5f556ca385ba2f2cc1bcdf3cb650717d"
+        }
+      ]
+    }
+  ]
+}
