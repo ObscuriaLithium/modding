@@ -7,8 +7,8 @@
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
-      <groupId>dev.obscuria.hekate</groupId>
-      <artifactId>Hekate</artifactId>
+      <groupId>dev.obscuria</groupId>
+      <artifactId>hekate</artifactId>
       <version>1.0.52</version>
     </dependency>
   </dependencies>

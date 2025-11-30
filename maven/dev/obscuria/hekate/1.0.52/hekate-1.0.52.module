@@ -1,8 +1,8 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "dev.obscuria.hekate",
-    "module": "Hekate",
+    "group": "dev.obscuria",
+    "module": "hekate",
     "version": "1.0.52",
     "attributes": {
       "org.gradle.status": "release"
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "Hekate-1.0.52.jar",
-          "url": "Hekate-1.0.52.jar",
+          "name": "hekate-1.0.52.jar",
+          "url": "hekate-1.0.52.jar",
           "size": 17236,
-          "sha512": "e82df472c055878599e62d0437b816aaf95bd8a6eebb814949c49fbe1358d7695ed971426f5518368a41f760b88e11f805db6288d1ed0c7d031ba499abc2dff6",
-          "sha256": "a135f17d59d65c9f37524a9c92c645100e47933f3f21eb2c08bc1729f60a1e1b",
-          "sha1": "24a5c149f5e21e6768ce01611f0423e02e329ad9",
-          "md5": "5f556ca385ba2f2cc1bcdf3cb650717d"
+          "sha512": "38fc8d3e6c907e50a4a5c1e00e8e563df79d45f0a5e64287c52c2a2e7f02a1c58b9f5633f7d33cdc929ade1d1f4dce2701a0905a4ded11583e4878cd3b24a2dc",
+          "sha256": "e9cb243963a651a632a467fa8630a14694f00c6dddc5e6d7356dd2ebdc72e572",
+          "sha1": "50b59e965de05a04be9bbe6d8d6f96078f068815",
+          "md5": "f60d348553f129c9bd638737f5fea0cc"
         }
       ]
     },
@@ -76,13 +76,13 @@
       ],
       "files": [
         {
-          "name": "Hekate-1.0.52.jar",
-          "url": "Hekate-1.0.52.jar",
+          "name": "hekate-1.0.52.jar",
+          "url": "hekate-1.0.52.jar",
           "size": 17236,
-          "sha512": "e82df472c055878599e62d0437b816aaf95bd8a6eebb814949c49fbe1358d7695ed971426f5518368a41f760b88e11f805db6288d1ed0c7d031ba499abc2dff6",
-          "sha256": "a135f17d59d65c9f37524a9c92c645100e47933f3f21eb2c08bc1729f60a1e1b",
-          "sha1": "24a5c149f5e21e6768ce01611f0423e02e329ad9",
-          "md5": "5f556ca385ba2f2cc1bcdf3cb650717d"
+          "sha512": "38fc8d3e6c907e50a4a5c1e00e8e563df79d45f0a5e64287c52c2a2e7f02a1c58b9f5633f7d33cdc929ade1d1f4dce2701a0905a4ded11583e4878cd3b24a2dc",
+          "sha256": "e9cb243963a651a632a467fa8630a14694f00c6dddc5e6d7356dd2ebdc72e572",
+          "sha1": "50b59e965de05a04be9bbe6d8d6f96078f068815",
+          "md5": "f60d348553f129c9bd638737f5fea0cc"
         }
       ]
     }
