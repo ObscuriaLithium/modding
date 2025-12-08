@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>wither-relics</ModId>
+    <ModName>Wither Relics</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1399114" slug="wither-relics">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+        </CurseForge>
+        <Modrinth id="pWP8tEA0" slug="wither-relics">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1399114" slug="wither-relics">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+        </CurseForge>
+        <Modrinth id="pWP8tEA0" slug="wither-relics">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
