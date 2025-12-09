@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>caravans</ModId>
+    <ModName>Pillager Caravans</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1356772" slug="pillager-caravans">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+        </CurseForge>
+        <Modrinth id="8jJHxtdz" slug="pillager-caravans">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1356772" slug="pillager-caravans">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+        </CurseForge>
+        <Modrinth id="8jJHxtdz" slug="pillager-caravans">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+    <!-- Forge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1356772" slug="pillager-caravans">
+            <Loader>Forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </CurseForge>
+        <Modrinth id="8jJHxtdz" slug="pillager-caravans">
+            <Loader>forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
