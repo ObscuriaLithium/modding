@@ -9,16 +9,12 @@
         <CurseForge id="715660" slug="obscure-tooltips">
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
-            <Dependency type="required" slug="fabric-api"/>
             <Dependency type="required" slug="fragmentum-fabric"/>
-            <Dependency type="optional" slug="modmenu"/>
         </CurseForge>
         <Modrinth id="5vetjDBY" slug="obscure-tooltips">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
-            <Dependency type="required" slug="fabric-api"/>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="optional" slug="modmenu"/>
         </Modrinth>
     </Module>
     <!-- NeoForge Version -->
