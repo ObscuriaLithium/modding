@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>elixirum</ModId>
+    <ModName>Ars Elixirum</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1107849" slug="ars-elixirum">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+        </CurseForge>
+        <Modrinth id="oYe4cXFm" slug="ars-elixirum">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="638419" slug="ars-elixirum-neoforge">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+        </CurseForge>
+        <Modrinth id="oYe4cXFm" slug="ars-elixirum">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
