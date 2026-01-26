@@ -10,7 +10,7 @@
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
-            <Dependency type="required" slug="forge-config-api-port-fabric"/>
+            <Dependency type="required" slug="forge-config-api-port"/>
             <Dependency type="optional" slug="modmenu"/>
         </CurseForge>
         <Modrinth id="49C5QgTK" slug="fragmentum">
