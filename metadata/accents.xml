@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>accents</ModId>
+    <ModName>Accents</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1446887" slug="accents">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="trinkets"/>
+        </CurseForge>
+        <Modrinth id="fALx4O2Q" slug="accents">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="trinkets"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1446887" slug="accents">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="curios"/>
+        </CurseForge>
+        <Modrinth id="fALx4O2Q" slug="accents">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="curios"/>
+        </Modrinth>
+    </Module>
+    <!-- Forge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="1446887" slug="accents">
+            <Loader>Forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="curios"/>
+        </CurseForge>
+        <Modrinth id="fALx4O2Q" slug="accents">
+            <Loader>forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+            <Dependency type="optional" slug="curios"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
