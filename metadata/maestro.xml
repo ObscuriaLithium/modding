@@ -5,7 +5,7 @@
     <ModName>Maestro</ModName>
     <!-- Fabric Version -->
     <Module name="fabric">
-        <Environment client="required" server="required"/>
+        <Environment client="required" server="optional"/>
         <CurseForge id="1454351" slug="accents">
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
@@ -19,7 +19,7 @@
     </Module>
     <!-- NeoForge Version -->
     <Module name="neoforge">
-        <Environment client="required" server="required"/>
+        <Environment client="required" server="optional"/>
         <CurseForge id="1454351" slug="accents">
             <Loader>NeoForge</Loader>
             <Dependency type="required" slug="fragmentum-neoforge"/>
@@ -31,7 +31,7 @@
     </Module>
     <!-- Forge Version -->
     <Module name="forge">
-        <Environment client="required" server="required"/>
+        <Environment client="required" server="optional"/>
         <CurseForge id="1454351" slug="accents">
             <Loader>Forge</Loader>
             <Dependency type="required" slug="fragmentum"/>
