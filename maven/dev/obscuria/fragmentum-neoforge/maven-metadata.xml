@@ -3,8 +3,8 @@
   <groupId>dev.obscuria</groupId>
   <artifactId>fragmentum-neoforge</artifactId>
   <versioning>
-    <latest>1.21.11-3.0.2</latest>
-    <release>1.21.11-3.0.2</release>
+    <latest>1.21.11-3.0.3</latest>
+    <release>1.21.11-3.0.3</release>
     <versions>
       <version>1.21.1-2.0.19</version>
       <version>1.21.1-2.0.26</version>
@@ -13,7 +13,8 @@
       <version>1.21.11-3.0.1</version>
       <version>1.21.1-2.1.1</version>
       <version>1.21.11-3.0.2</version>
+      <version>1.21.11-3.0.3</version>
     </versions>
-    <lastUpdated>20260213114713</lastUpdated>
+    <lastUpdated>20260213115750</lastUpdated>
   </versioning>
 </metadata>
