@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>loot_journal</ModId>
+    <ModName>Loot Journal</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="optional"/>
+        <CurseForge id="1120388" slug="loot-journal-fabric">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+            <Dependency type="required" slug="yacl"/>
+        </CurseForge>
+        <Modrinth id="OJ6ZYz5L" slug="loot-journal">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="yacl"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="optional"/>
+        <CurseForge id="700723" slug="loot-journal">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+            <Dependency type="required" slug="yacl"/>
+        </CurseForge>
+        <Modrinth id="OJ6ZYz5L" slug="loot-journal">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="yacl"/>
+        </Modrinth>
+    </Module>
+    <!-- Forge Version -->
+    <Module name="forge">
+        <Environment client="required" server="optional"/>
+        <CurseForge id="700723" slug="loot-journal">
+            <Loader>Forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="yacl"/>
+        </CurseForge>
+        <Modrinth id="OJ6ZYz5L" slug="loot-journal">
+            <Loader>forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="yacl"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
