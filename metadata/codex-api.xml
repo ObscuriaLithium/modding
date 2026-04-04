@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>codex_api</ModId>
+    <ModName>Codex API</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="0" slug="codex-api">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fabric-api"/>
+        </CurseForge>
+        <Modrinth id="0" slug="codex-api">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fabric-api"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="0" slug="codex-api">
+            <Loader>NeoForge</Loader>
+        </CurseForge>
+        <Modrinth id="0" slug="codex-api">
+            <Loader>neoforge</Loader>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="0" slug="codex-api">
+            <Loader>Forge</Loader>
+        </CurseForge>
+        <Modrinth id="0" slug="codex-api">
+            <Loader>forge</Loader>
+        </Modrinth>
+    </Module>
+</ModMetadata>
