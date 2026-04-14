@@ -11,7 +11,7 @@
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
         </CurseForge>
-        <Modrinth id="0" slug="archivist">
+        <Modrinth id="svTEwQMq" slug="archivist-api">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
@@ -23,7 +23,7 @@
         <CurseForge id="1513409" slug="archivist">
             <Loader>NeoForge</Loader>
         </CurseForge>
-        <Modrinth id="0" slug="archivist">
+        <Modrinth id="svTEwQMq" slug="archivist-api">
             <Loader>neoforge</Loader>
         </Modrinth>
     </Module>
@@ -33,7 +33,7 @@
         <CurseForge id="1513409" slug="archivist">
             <Loader>Forge</Loader>
         </CurseForge>
-        <Modrinth id="0" slug="archivist">
+        <Modrinth id="svTEwQMq" slug="archivist-api">
             <Loader>forge</Loader>
         </Modrinth>
     </Module>
