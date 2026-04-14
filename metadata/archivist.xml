@@ -6,7 +6,7 @@
     <!-- Fabric Version -->
     <Module name="fabric">
         <Environment client="required" server="required"/>
-        <CurseForge id="0" slug="archivist">
+        <CurseForge id="1513409" slug="archivist">
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fabric-api"/>
@@ -20,7 +20,7 @@
     <!-- NeoForge Version -->
     <Module name="neoforge">
         <Environment client="required" server="required"/>
-        <CurseForge id="0" slug="archivist">
+        <CurseForge id="1513409" slug="archivist">
             <Loader>NeoForge</Loader>
         </CurseForge>
         <Modrinth id="0" slug="archivist">
@@ -30,7 +30,7 @@
     <!-- NeoForge Version -->
     <Module name="forge">
         <Environment client="required" server="required"/>
-        <CurseForge id="0" slug="archivist">
+        <CurseForge id="1513409" slug="archivist">
             <Loader>Forge</Loader>
         </CurseForge>
         <Modrinth id="0" slug="archivist">
