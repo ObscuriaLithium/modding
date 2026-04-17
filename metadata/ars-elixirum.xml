@@ -10,11 +10,13 @@
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fragmentum-fabric"/>
+            <Dependency type="required" slug="archivist"/>
         </CurseForge>
         <Modrinth id="oYe4cXFm" slug="ars-elixirum">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="archivist"/>
         </Modrinth>
     </Module>
     <!-- NeoForge Version -->
@@ -23,10 +25,12 @@
         <CurseForge id="638419" slug="ars-elixirum-neoforge">
             <Loader>NeoForge</Loader>
             <Dependency type="required" slug="fragmentum-neoforge"/>
+            <Dependency type="required" slug="archivist"/>
         </CurseForge>
         <Modrinth id="oYe4cXFm" slug="ars-elixirum">
             <Loader>neoforge</Loader>
             <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="archivist"/>
         </Modrinth>
     </Module>
 </ModMetadata>
