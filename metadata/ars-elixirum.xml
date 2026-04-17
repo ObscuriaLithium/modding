@@ -33,4 +33,18 @@
             <Dependency type="required" slug="archivist"/>
         </Modrinth>
     </Module>
+    <!-- Forge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="620870" slug="ars-elixirum-forge">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="archivist"/>
+        </CurseForge>
+        <Modrinth id="oYe4cXFm" slug="ars-elixirum">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="archivist"/>
+        </Modrinth>
+    </Module>
 </ModMetadata>
