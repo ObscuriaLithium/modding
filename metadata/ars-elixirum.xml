@@ -16,7 +16,7 @@
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="archivist"/>
+            <Dependency type="required" slug="archivist-api"/>
         </Modrinth>
     </Module>
     <!-- NeoForge Version -->
@@ -30,7 +30,7 @@
         <Modrinth id="oYe4cXFm" slug="ars-elixirum">
             <Loader>neoforge</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="archivist"/>
+            <Dependency type="required" slug="archivist-api"/>
         </Modrinth>
     </Module>
     <!-- Forge Version -->
@@ -44,7 +44,7 @@
         <Modrinth id="oYe4cXFm" slug="ars-elixirum">
             <Loader>forge</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="archivist"/>
+            <Dependency type="required" slug="archivist-api"/>
         </Modrinth>
     </Module>
 </ModMetadata>
