@@ -22,7 +22,7 @@
     <!-- NeoForge Version -->
     <Module name="neoforge">
         <Environment client="required" server="optional"/>
-        <CurseForge id="700723" slug="loot-journal">
+        <CurseForge id="1120395" slug="loot-journal-neoforge">
             <Loader>NeoForge</Loader>
             <Dependency type="required" slug="fragmentum-neoforge"/>
             <Dependency type="required" slug="yacl"/>
