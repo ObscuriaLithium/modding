@@ -10,13 +10,11 @@
             <Loader>Fabric</Loader>
             <Loader>Quilt</Loader>
             <Dependency type="required" slug="fragmentum-fabric"/>
-            <Dependency type="required" slug="yacl"/>
         </CurseForge>
         <Modrinth id="OJ6ZYz5L" slug="loot-journal">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="yacl"/>
         </Modrinth>
     </Module>
     <!-- NeoForge Version -->
@@ -25,12 +23,10 @@
         <CurseForge id="1120395" slug="loot-journal-neoforge">
             <Loader>NeoForge</Loader>
             <Dependency type="required" slug="fragmentum-neoforge"/>
-            <Dependency type="required" slug="yacl"/>
         </CurseForge>
         <Modrinth id="OJ6ZYz5L" slug="loot-journal">
             <Loader>neoforge</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="yacl"/>
         </Modrinth>
     </Module>
     <!-- Forge Version -->
@@ -39,12 +35,10 @@
         <CurseForge id="700723" slug="loot-journal">
             <Loader>Forge</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="yacl"/>
         </CurseForge>
         <Modrinth id="OJ6ZYz5L" slug="loot-journal">
             <Loader>forge</Loader>
             <Dependency type="required" slug="fragmentum"/>
-            <Dependency type="required" slug="yacl"/>
         </Modrinth>
     </Module>
 </ModMetadata>
