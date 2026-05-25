@@ -1,7 +1,6 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/loot-journal",
   "promos": {
-
     "26.1.2-latest": "6.2.1",
     "26.1.2-recommended": "6.2.1",
     "26.1.1-latest": "6.2.1",
@@ -11,9 +10,11 @@
 
     "1.21.11-recommended": "6.2.1",
     "1.21.11-latest": "6.2.1",
+
     "1.21.1-latest": "6.2.1",
     "1.21.1-recommended": "6.2.1",
-    "1.20.1-latest": "6.1.2",
-    "1.20.1-recommended": "6.1.2"
+
+    "1.20.1-latest": "6.2.1",
+    "1.20.1-recommended": "6.2.1"
   }
 }
