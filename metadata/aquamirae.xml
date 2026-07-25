@@ -12,7 +12,7 @@
             <Dependency type="required" slug="fragmentum-fabric"/>
             <Dependency type="required" slug="geckolib"/>
         </CurseForge>
-        <Modrinth id="svTEwQMq" slug="archivist-api">
+        <Modrinth id="k23mNPhZ" slug="aquamirae">
             <Loader>fabric</Loader>
             <Loader>quilt</Loader>
             <Dependency type="required" slug="fragmentum"/>
