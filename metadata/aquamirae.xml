@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetadata>
+    <!-- General -->
+    <ModId>aquamirae</ModId>
+    <ModName>Aquamirae</ModName>
+    <!-- Fabric Version -->
+    <Module name="fabric">
+        <Environment client="required" server="required"/>
+        <CurseForge id="891257" slug="aquamirae-fabric">
+            <Loader>Fabric</Loader>
+            <Loader>Quilt</Loader>
+            <Dependency type="required" slug="fragmentum-fabric"/>
+            <Dependency type="required" slug="geckolib"/>
+        </CurseForge>
+        <Modrinth id="svTEwQMq" slug="archivist-api">
+            <Loader>fabric</Loader>
+            <Loader>quilt</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="neoforge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="536254" slug="aquamirae">
+            <Loader>NeoForge</Loader>
+            <Dependency type="required" slug="fragmentum-neoforge"/>
+            <Dependency type="required" slug="geckolib"/>
+        </CurseForge>
+        <Modrinth id="k23mNPhZ" slug="aquamirae">
+            <Loader>neoforge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+        </Modrinth>
+    </Module>
+    <!-- NeoForge Version -->
+    <Module name="forge">
+        <Environment client="required" server="required"/>
+        <CurseForge id="536254" slug="aquamirae">
+            <Loader>Forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+        </CurseForge>
+        <Modrinth id="k23mNPhZ" slug="aquamirae">
+            <Loader>forge</Loader>
+            <Dependency type="required" slug="fragmentum"/>
+            <Dependency type="required" slug="geckolib"/>
+        </Modrinth>
+    </Module>
+</ModMetadata>
